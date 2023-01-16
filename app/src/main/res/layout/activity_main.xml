@@ -19,9 +19,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -49,11 +47,12 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/buttonDesbloqueio"
+        android:id="@+id/buttonDesbloqueio1"
         android:layout_width="434dp"
         android:layout_height="114dp"
         android:layout_marginTop="84dp"
         android:backgroundTint="@color/black_neutro"
+        android:onClick="teladesbloqueio"
         android:text="Desbloqueio"
         android:textColor="@color/Orange"
         android:textSize="40dp"
@@ -68,13 +67,14 @@
         android:layout_height="115dp"
         android:layout_marginTop="76dp"
         android:backgroundTint="@color/black_neutro"
+        android:onClick="telaReset"
         android:text="Reset de senha"
         android:textColor="@color/Orange"
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonDesbloqueio" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonDesbloqueio1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
