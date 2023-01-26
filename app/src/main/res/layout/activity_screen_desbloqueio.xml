@@ -10,24 +10,24 @@
 
     <WebView
         android:id="@+id/webViewDesbloqueio"
-        android:layout_width="789dp"
-        android:layout_height="1030dp"
+        android:layout_width="925dp"
+        android:layout_height="807dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/ButtonFinalizarDesbloqueio"
-        android:layout_width="788dp"
-        android:layout_height="235dp"
-        android:onClick="returnhome"
+        android:layout_width="923dp"
+        android:layout_height="169dp"
+        android:onClick="returnhomedesbloqueio"
         android:text="Fechar"
         android:textColor="@color/white"
         android:textSize="35dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/webViewDesbloqueio" />
+        app:layout_constraintTop_toBottomOf="@+id/webViewDesbloqueio"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

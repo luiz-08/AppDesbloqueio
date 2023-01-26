@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
@@ -9,8 +10,8 @@
 
     <TextView
         android:id="@+id/MainText"
-        android:layout_width="794dp"
-        android:layout_height="190dp"
+        android:layout_width="688dp"
+        android:layout_height="146dp"
         android:layout_margin="45dp"
         android:text="TOTEM DESBLOQUEIO E RESET DE SENHA"
         android:textAlignment="center"
@@ -23,20 +24,20 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="796dp"
-        android:layout_height="309dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="645dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/MainText"
-        app:srcCompat="@drawable/fieldservice" />
+        app:srcCompat="@drawable/logofieldbr2" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="798dp"
-        android:layout_height="109dp"
-        android:layout_marginTop="96dp"
+        android:layout_width="708dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="72dp"
         android:text="ESCOLHA UM SERVIÇO:"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -54,7 +55,7 @@
         android:backgroundTint="@color/black_neutro"
         android:onClick="teladesbloqueio"
         android:text="Desbloqueio"
-        android:textColor="@color/Orange"
+        android:textColor="@color/amarelo"
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,7 +70,7 @@
         android:backgroundTint="@color/black_neutro"
         android:onClick="telaReset"
         android:text="Reset de senha"
-        android:textColor="@color/Orange"
+        android:textColor="@color/amarelo"
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

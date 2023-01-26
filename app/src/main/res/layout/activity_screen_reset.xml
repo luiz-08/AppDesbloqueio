@@ -4,29 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".screenReset"
-    android:background="@drawable/background">
+    android:background="@drawable/background"
+    tools:context=".screenReset">
 
     <WebView
         android:id="@+id/webViewReset"
-        android:layout_width="789dp"
-        android:layout_height="1030dp"
+        android:layout_width="760dp"
+        android:layout_height="822dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/ButtonFinalizarReset"
-        android:layout_width="788dp"
-        android:layout_height="235dp"
-        android:onClick="returnhome2"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:layout_marginTop="8dp"
+        android:onClick="returnhomereset"
         android:text="Fechar"
         android:textColor="@color/white"
         android:textSize="35dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/webViewReset"/>
+        app:layout_constraintTop_toBottomOf="@+id/webViewReset" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
