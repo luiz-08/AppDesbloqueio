@@ -4,30 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@color/black"
     tools:context=".screenReset">
 
     <WebView
         android:id="@+id/webViewReset"
-        android:layout_width="760dp"
-        android:layout_height="822dp"
+        android:layout_width="967dp"
+        android:layout_height="647dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textview3"
+        />
 
     <Button
         android:id="@+id/ButtonFinalizarReset"
         android:layout_width="match_parent"
-        android:layout_height="139dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="16dp"
         android:onClick="returnhomereset"
         android:text="Fechar"
         android:textColor="@color/white"
-        android:textSize="35dp"
+        android:textSize="45dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/webViewReset" />
+        app:layout_constraintTop_toBottomOf="@+id/webViewReset"
+        tools:ignore="MissingConstraints"
+         />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="774dp"
+        android:layout_height="207dp"
+        android:layout_marginTop="4dp"
+        android:text="Dúvidas? Procure pelo TI Local de sua unidade ou ligue 0800 725 8000"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBaseline_toTopOf="parent"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

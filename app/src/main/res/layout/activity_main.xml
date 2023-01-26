@@ -2,17 +2,15 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/MainText"
-        android:layout_width="688dp"
-        android:layout_height="146dp"
-        android:layout_margin="45dp"
+        android:id="@+id/tv_main_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:text="TOTEM DESBLOQUEIO E RESET DE SENHA"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -24,34 +22,34 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="645dp"
-        android:layout_height="192dp"
-        android:layout_marginTop="56dp"
+        android:layout_width="805dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="80dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/MainText"
+        app:layout_constraintTop_toBottomOf="@id/tv_main_text"
         app:srcCompat="@drawable/logofieldbr2" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="708dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="72dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         android:text="ESCOLHA UM SERVIÇO:"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
         android:id="@+id/buttonDesbloqueio1"
-        android:layout_width="434dp"
-        android:layout_height="114dp"
-        android:layout_marginTop="84dp"
+        android:layout_width="500dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="120dp"
         android:backgroundTint="@color/black_neutro"
         android:onClick="teladesbloqueio"
         android:text="Desbloqueio"
@@ -64,9 +62,9 @@
 
     <Button
         android:id="@+id/buttonReset"
-        android:layout_width="440dp"
-        android:layout_height="115dp"
-        android:layout_marginTop="76dp"
+        android:layout_width="500dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="100dp"
         android:backgroundTint="@color/black_neutro"
         android:onClick="telaReset"
         android:text="Reset de senha"
