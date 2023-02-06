@@ -11,7 +11,6 @@ import android.webkit.WebViewClient
 import android.widget.Button
 import android.widget.Toast;
 
-
 class screenDesbloqueio : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,23 +34,3 @@ class screenDesbloqueio : AppCompatActivity() {
         finish();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
