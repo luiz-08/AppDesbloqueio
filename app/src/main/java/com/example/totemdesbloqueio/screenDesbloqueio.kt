@@ -24,13 +24,14 @@ class screenDesbloqueio : AppCompatActivity() {
         webView.webViewClient = WebViewClient()
     }
 
-    fun returnhomedesbloqueio (view: View, webView: WebView){
-        webView.clearHistory();
-        webView.clearCache(true);
-        webView.clearFormData()
+    fun returnhomedesbloqueio (view: View, webView: WebView) {
+        webView.clearCache(true)
+        webView.clearHistory()
+        webView.clearHistory()
 
-        val intent = Intent(this, MainActivity::class.java)
-        startActivity(intent)
-        finish();
+        val intent4 = Intent(this, MainActivity::class.java).apply { }
+        startActivity(intent4)
+        finish()
     }
+
 }

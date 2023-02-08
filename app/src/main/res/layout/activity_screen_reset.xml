@@ -9,8 +9,8 @@
 
     <WebView
         android:id="@+id/webViewReset"
-        android:layout_width="967dp"
-        android:layout_height="647dp"
+        android:layout_width="match_parent"
+        android:layout_height="750dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -37,7 +37,7 @@
 
     <TextView
         android:id="@+id/textview3"
-        android:layout_width="774dp"
+        android:layout_width="match_parent"
         android:layout_height="207dp"
         android:layout_marginTop="4dp"
         android:text="Dúvidas? Procure pelo TI Local de sua unidade ou ligue 0800 725 8000"

@@ -32,13 +32,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/webViewDesbloqueio"
-        tools:ignore="MissingConstraints"
-        android:tag="@id/webViewDesbloqueio"/>
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="774dp"
-        android:layout_height="207dp"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
         android:layout_marginTop="4dp"
         android:text="Dúvidas? Procure pelo TI Local de sua unidade ou ligue 0800 725 8000"
         android:textAlignment="center"

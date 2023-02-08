@@ -16,12 +16,14 @@ class MainActivity : AppCompatActivity() {
         val button = findViewById<Button>(R.id.buttonDesbloqueio1)
         val intent = Intent(this, screenDesbloqueio::class.java).apply {  }
         startActivity(intent)
+        finish();
     }
 
     fun telaReset (view: View){
         val button = findViewById<Button>(R.id.buttonReset)
         val intent2 = Intent(this, screenReset::class.java).apply {  }
         startActivity(intent2)
+        finish();
     }
 }
 
